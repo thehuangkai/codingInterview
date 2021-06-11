@@ -1,13 +1,17 @@
-# The largest heading
+# Some Python Code Snippets
 ## The second largest heading
 ###### The smallest heading
 
 
-Some basic Git commands are:
+Loop through arrays, return with array:
 ```
-git status
-git add
-git commit
+def twoNumberSum(array, targetSum):
+   resultArray=[]
+   for i in range(len(array)-1):
+      for j in range(i+1, len(array)):
+	     if (array[i] + array[j]) == targetSum:
+            return [array[i], array[j]]
+   return []
 ```
 
 - George Washington
